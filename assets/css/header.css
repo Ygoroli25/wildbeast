@@ -1,0 +1,30 @@
+.header {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 1.25rem;
+}
+
+.header-menu {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-size: 1.125rem;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
