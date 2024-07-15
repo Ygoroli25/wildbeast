@@ -1,0 +1,20 @@
+.animals {
+  background: #fafbfc;
+  padding: 1.8rem;
+}
+
+.animals li a {
+  display: block;
+  min-width: 60px;
+  max-width: 150px;
+  margin: 0 auto 1.8rem auto;
+  background: #ffffff;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0.25rem .25rem 1rem 0 rgba(44, 44, 44, 0.15);
+  transition: .1s ease-out;
+}
+
+.animals li a:hover {
+  background: #B07DFB;
+}

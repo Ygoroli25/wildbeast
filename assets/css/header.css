@@ -28,3 +28,7 @@
 .menu a:hover {
   background: rgba(0, 0, 0, 0.5);
 }
+
+.header img {
+  max-width: 200px;
+}
