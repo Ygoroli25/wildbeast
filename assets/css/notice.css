@@ -1,0 +1,6 @@
+.notice {
+  display: grid;
+  align-content: start;
+  padding: 1.8rem;
+  gap: 1.8rem;
+}
