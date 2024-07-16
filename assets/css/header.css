@@ -30,5 +30,26 @@
 }
 
 .header img {
-  max-width: 200px;
+  max-width: 180px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header-menu {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    align-items: center;
+  }
+  .menu a {
+    font-size: 0.87rem;
+  }
+  .menu {
+    gap: 0.85rem;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
 }

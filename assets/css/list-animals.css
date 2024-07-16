@@ -5,7 +5,7 @@
 
 .animals li a {
   display: block;
-  min-width: 60px;
+  min-width: 80px;
   max-width: 150px;
   margin: 0 auto 1.8rem auto;
   background: #ffffff;
@@ -17,4 +17,43 @@
 
 .animals li a:hover {
   background: #b07dfb;
+}
+
+@keyframes seta {
+  from {
+    right: 1.8rem;
+  }
+  to {
+    right: 1.25rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .animals {
+    padding: 0 1.8rem;
+    overflow-x: auto;
+    position: relative;
+  }
+
+  .animals::after {
+    content: "→";
+    position: absolute;
+    top: 0.25rem;
+    right: 1.8rem;
+    color: rgba(0, 0, 0, 0.4);
+    animation: seta 0.5s ease-in 0s infinite alternate;
+  }
+
+  .animals ul {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  .animals ul li {
+    flex: 1 0 80px;
+  }
+
+  .animals li a {
+    margin: 1.8rem 1.8rem 1.8rem 0;
+  }
 }

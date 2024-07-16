@@ -3,4 +3,5 @@
   align-content: start;
   padding: 1.8rem;
   gap: 1.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }

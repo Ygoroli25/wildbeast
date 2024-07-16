@@ -111,3 +111,13 @@ main p {
 .attributes li + li {
   border-top: 2px solid #b07dfb;
 }
+
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .title h1 {
+    font-size: 3rem;
+  }
+}
